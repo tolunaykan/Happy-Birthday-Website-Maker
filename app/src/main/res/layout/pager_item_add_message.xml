@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9fafc">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitStart"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+            app:srcCompat="@drawable/background" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="50dp">
+
+            <ImageView
+                android:id="@+id/pager_item_add_message_image"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="60dp"
+                android:src="@mipmap/ic_message" />
+
+            <TextView
+                android:id="@+id/pager_item_add_message_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wish_messages"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pager_item_add_message_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/add_a_few_messages_which_will_display_in_order"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText_addMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/ex_i_love_you" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addButton_addMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/add" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:id="@+id/helpButton_addMessage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_help" />
+
+            <TextView
+                android:id="@+id/textView_add_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="@string/click_here_for_help" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

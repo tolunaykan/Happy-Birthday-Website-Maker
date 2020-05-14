@@ -1,0 +1,2 @@
+rootProject.name='Happy Birthday Website Maker'
+include ':app'
