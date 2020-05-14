@@ -5,7 +5,11 @@
 
 
 ![](https://img.shields.io/badge/version-1.1.3-green.svg)
+
 ### 💻 &nbsp; [Get It From Google Play Store](https://play.google.com/store/apps/details?id=com.zisantolunay.happybirthday "Get It From Google Play Store")
+
+### 🎁 &nbsp; [Sample Website](https://tolunaykan.com/HappyBirthday/user-464309cf-9ea6-4bc3-a676-ae58bbc74763 "Sample Website")
+
 
 
 ------------
